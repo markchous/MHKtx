@@ -18,7 +18,7 @@ allprojects {
 _Step 2. Add the dependency_
 ```
 dependencies {
-	        implementation 'com.github.markchous:MHKtx:1.0.0'
+	        implementation 'com.github.markchous:MHKtx:1.0.1'
 	}
 ```
 
@@ -37,7 +37,7 @@ _Step 2. Add the dependency_
 <dependency>
 	    <groupId>com.github.markchous</groupId>
 	    <artifactId>MHKtx</artifactId>
-	    <version>1.0.0</version>
+	    <version>1.0.1</version>
 	</dependency>
 ```
 
