@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/markchous/MHKtx.svg)](https://jitpack.io/#markchous/MHKtx)
+[![](https://jitpack.io/v/markchous/MHKtx.svg)](https://jitpack.io/#markchous/MHKtx)[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 ## MHKtx
 MHKtx was inspired by the constant need of the same extensions being used in every Android project I work with. This is for Android only as of right now, with no plans to branch out anytime this future. This could change, stay tuned. Please feel free to contribute your own extensions to the project if they are not already included. 
