@@ -7,7 +7,7 @@ import android.support.v7.widget.SearchView
  * @param CompletionHandler The method in charge of how to handle onQueryTextChange.
  * @param CompletionHandler The method in charge of how to handle onQueryTextSubmit.
  */
-fun SearchView.onQueryText(change: (newText: String?) -> Unit, submit: (query: String?) -> Unit) {
+inline fun SearchView.onQueryText(crossinline change: (newText: String?) -> Unit, crossinline submit: (query: String?) -> Unit) {
     setOnQueryTextListener(object : SearchView.OnQueryTextListener {
         override fun onQueryTextSubmit(query: String?): Boolean {
             submit(query)

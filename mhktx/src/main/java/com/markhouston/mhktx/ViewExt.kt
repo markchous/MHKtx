@@ -2,6 +2,7 @@ package com.markhouston.mhktx
 
 import android.content.Context
 import android.view.View
+import android.view.View.*
 import android.view.inputmethod.InputMethodManager
 
 /**
@@ -28,4 +29,19 @@ fun View.hideKeyboard(): Boolean {
     } catch (e: RuntimeException) {
         false
     }
+}
+
+/**
+ * Hide a view using the visibility values GONE or INVISIBLE.
+ * @param gone Determine if the visibility should be set to GONE OR INVISIBLE.
+ */
+fun View.hide(gone: Boolean) {
+    visibility = if (gone) GONE else INVISIBLE
+}
+
+/**
+ * Show a view by setting it's visibility to VISIBLE.
+ */
+fun View.show() {
+    visibility = VISIBLE
 }
